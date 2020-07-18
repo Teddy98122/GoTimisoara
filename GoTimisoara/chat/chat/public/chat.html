@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Go Timisoara-Chat</title>
+  <link rel="stylesheet" href="./chat_files/chat.css">
+</head>
+
+<body>
+  <div id="appContainer" class="flex-column" style="background-image: url(&#39;tms2.jpg&#39;);  background-repeat: no-repeat;">
+  <header>
+    <div class="container flex-column flex-center">
+      <h1>Chat GoTimisoara</h1>
+      <p class="light-text">Intreaba orice !</p>
+    </div>
+  </header>
+  <div id="mainContent" class="container flex-grow-1 flex-column">
+    <section id="login" class="">
+      <h2 class="text-center">Haide să începem!</h2>
+      <form id="loginForm" class="flex">
+        <input type="text" name="username" class="flex-grow-1" id="usernameInput" placeholder="username">
+        <button id="loginButton">Discută!</button>
+      </form>
+    </section>
+    <section id="chat" class="hidden flex-grow-1 flex-column">
+      <div id="messagesList" class="flex-grow-1">
+
+      </div>
+      <form id="messageForm" class="flex mb-2">
+          <input type="text" name="message" class="flex-grow-1" id="messageInput" placeholder="introduce mesajul">
+          <button id="sendButton">Trimite</button>
+      </form>
+    </section>
+  </div>
+</div>
+  <script src="./chat_files/socket.io.js.descărcare"></script>
+
+  <script src="./chat_files/chat.js.descărcare"></script>
+
+
+
+
+</body></html>
