@@ -16,7 +16,7 @@
   "author": "er1fwqaar2qctrl6",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "socket.io": "^2.2.0"
   }
 }
